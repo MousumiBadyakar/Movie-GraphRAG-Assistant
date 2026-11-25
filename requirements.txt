@@ -6,3 +6,4 @@ langchain-neo4j
 langchain-google-genai
 python-dotenv
 rich
+streamlit
