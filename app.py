@@ -106,7 +106,7 @@ def init_backend():
             index_name=index_name
         )
 
-    model = init_chat_model("google_genai:gemini-2.5-flash")
+    model = init_chat_model("google_genai:gemini-3.8-flash")
     strParser = StrOutputParser()
 
     return embeddings, graph, vector_store, model, strParser
@@ -267,7 +267,7 @@ with st.sidebar:
         st.rerun()
 
 # 6. Main Chat Header
-st.title("🎬 Movie Intelligence Assistant")
+st.title("🎬 CineGraph AI | Movie Intelligence Assistant")
 st.caption("Ask questions about movies, directors, release years, genres, or search plot storylines.")
 
 # Display past chat history
