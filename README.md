@@ -13,7 +13,7 @@ Powered by **Google Gemini** and **LangChain**, the application understands user
 
 ---
 
-## 🚀 Key Features
+## ✨ Key Features
 
 - **Hybrid GraphRAG Architecture:** Combines graph-based retrieval and vector-based semantic search.
 - **Knowledge Graph Retrieval:** Retrieves structured information about movies, directors, actors, genres, and release years using Neo4j.
