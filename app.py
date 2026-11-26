@@ -23,7 +23,15 @@ st.set_page_config(
     layout="centered"
 )
 
+# Load environment variables
 load_dotenv()
+
+# Load Streamlit Cloud secrets into environment variables
+try:
+    for key, value in st.secrets.items():
+        os.environ[key] = str(value)
+except Exception:
+    pass
 
 # 2. Cached Backend Initialization (Runs Once)
 @st.cache_resource(show_spinner="Initializing Database & Models...")
