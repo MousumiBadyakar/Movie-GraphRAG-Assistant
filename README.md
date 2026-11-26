@@ -7,6 +7,16 @@ Powered by **Google Gemini** and **LangChain**, the application understands user
 
 ---
 
+## 🚀 Live Demo
+
+**Try CineGraph AI here:**
+
+🔗 [CineGraph AI – Movie Intelligence Assistant](https://movie-graphrag-assistant-sfmdprqrfqocvevxbqbnrg.streamlit.app/)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://movie-graphrag-assistant-sfmdprqrfqocvevxbqbnrg.streamlit.app/)
+
+---
+
 ## 🚀 Key Features
 
 - **Hybrid GraphRAG Architecture:** Combines graph-based retrieval and vector-based semantic search.
