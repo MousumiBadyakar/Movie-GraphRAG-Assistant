@@ -5,8 +5,6 @@ CineGraph AI is an intelligent movie assistant built using **Hybrid GraphRAG (Gr
 
 Powered by **Google Gemini** and **LangChain**, the application understands user queries, retrieves relevant information from multiple knowledge sources, and generates contextual responses through an interactive Streamlit interface.
 
----
-
 ## 🚀 Live Demo
 
 **Try CineGraph AI here:**
